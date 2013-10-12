@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+
+<!--
+   The following environment variables are expected to be set:
+     1) HADOOP_HOME     := root of hadoop tree
+     2) HADOOP_VERSION  := version of hadoop (for hadoop-VERSION-core.jar)
+     3) JUNIT_HOME      := junit jars
+     4) NETCDF_HOME     := Damasc NetCDF library (e.g.
+   You may have to adjust the names of the Hadoop JAR files listed in the
+   classpath below depending on the version of Hadoop being used.
+edu/ucsc/srl/tools/NetcdfFileGenerator
+-->
+
+<project name="HDF5TestRead" default="main" >
+
+  <property name="src.dir" value="src"/>
+  <property name="build.dir" value="build"/>
+  <property name="classes.dir" value="${build.dir}/classes"/>
+  <property name="jar.dir" value="${build.dir}/jar"/>
+  <property name="main-class" value="edu.ucsc.srl.hdf5.H5_ReadDataset"/> 
+  <property environment="env"/>
+
+  <!--
+  <condition property="netcdf_path" value="${env.NETCDF_HOME}" else="../../netcdf/netcdf-damasc/netcdf-java/trunk/">
+      <isset property="env.NETCDF_HOME"/>
+  </condition>
+  -->
+
+  <path id="classpath">
+    <!-- <pathelement location="${netcdf_path}/netcdfAll-4.2.jar"/> -->
+    <!-- <pathelement location="/usr/share/java/jhdf.jar"/> 
+    <pathelement location="/home/buck/install/hdf5view/lib/jhdfobj.jar"/> 
+    <pathelement location="/home/buck/install/hdf5view/lib/jhdf4obj.jar"/> 
+    <pathelement location="/home/buck/install/hdf5_java-release/lib/jhdf5obj.jar"/> -->
+    <pathelement location="${env.HDF5_JAVA_HOME}/lib/jhdf5.jar"/> 
+  </path>
+
+  <target name="init">
+    <mkdir dir="${build.dir}"/>
+    <mkdir dir="${classes.dir}"/>
+    <mkdir dir="${jar.dir}"/>
+  </target>
+
+  <target name="compile" depends="init">
+    <javac
+      debug="true"
+      srcdir="${src.dir}"
+      destdir="${classes.dir}"
+        classpathref="classpath">
+      <compilerarg value="-Xlint"/>
+    </javac>
+  </target>
+
+  <target name="jar" depends="compile">
+    <!-- Capture the path as a delimited property using the refid attribute -->
+    <property name="myclasspath" refid="classpath"/>
+    <!-- Emit the property to the ant console -->
+    <echo message="Classpath = ${myclasspath}"/>
+    <echo message="java.library.path= ${java.library.path}"/>
+
+
+<jar destfile="${jar.dir}/${ant.project.name}.jar" 
+        basedir="${classes.dir}">
+      <manifest>
+        <attribute name="Main-Class" value="${main-class}"/>
+      </manifest>
+        <fileset dir="${classes.dir}" includes="**/*.class" />
+    </jar>
+  </target>
+
+  <target name="clean">
+    <delete dir="${build.dir}"/>
+  </target>
+
+   <target name="run" depends="jar,showprops">
+        <java fork="true" classname="${main-class}" >
+        <!--<sysproperty key="java.library.path" path="${myclasspath}" /> -->
+        <!-- <sysproperty key="java.library.path" path="/home/buck/install/hdf5view/lib" /> -->
+        <!-- <sysproperty key="ncsa.hdf.hdf5lib.H5.loadLibraryName" path="libjhdf5.so" /> -->
+            <classpath>
+                <path refid="classpath"/>
+                <path id="application" location="${jar.dir}/${ant.project.name}.jar"/>
+            </classpath>
+            <arg value="${user.dir}/h5ex_d_rdwr.h5" />
+        </java>
+    </target>
+
+  <target name="main" depends="clean,jar,run"/>
+
+  <target name="showprops">
+    <echo message="java.library.path = ${java.library.path}" /> 
+    <echo message="Classpath = ${myclasspath}"/>
+  </target>
+
+</project>
