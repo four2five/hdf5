@@ -1,0 +1,49 @@
+============================
+testh5mkgrp.sh  Test Log
+============================
+Testing h5mkgrp -h                                                     PASSED
+Testing h5mkgrp -V ../testfiles/h5mkgrp_version.h5                     PASSED
+Verifying h5ls file structure ../testfiles/h5mkgrp_version.h5          PASSED
+FILEOUT= ../testfiles/h5mkgrp_version.h5
+Testing h5mkgrp ../testfiles/h5mkgrp_single.h5 single                  PASSED
+Verifying h5ls file structure ../testfiles/h5mkgrp_single.h5           PASSED
+FILEOUT= ../testfiles/h5mkgrp_single.h5
+Testing h5mkgrp -v ../testfiles/h5mkgrp_single.h5 single               PASSED
+Verifying h5ls file structure ../testfiles/h5mkgrp_single.h5           PASSED
+FILEOUT= ../testfiles/h5mkgrp_single.h5
+Testing h5mkgrp -p ../testfiles/h5mkgrp_single.h5 single               PASSED
+Verifying h5ls file structure ../testfiles/h5mkgrp_single.h5           PASSED
+FILEOUT= ../testfiles/h5mkgrp_single.h5
+Testing h5mkgrp -l ../testfiles/h5mkgrp_single_latest.h5 latest        PASSED
+Verifying h5ls file structure ../testfiles/h5mkgrp_single_latest.h5    PASSED
+FILEOUT= ../testfiles/h5mkgrp_single_latest.h5
+Testing h5mkgrp ../testfiles/h5mkgrp_several.h5 one two                PASSED
+Verifying h5ls file structure ../testfiles/h5mkgrp_several.h5          PASSED
+FILEOUT= ../testfiles/h5mkgrp_several.h5
+Testing h5mkgrp -v ../testfiles/h5mkgrp_several.h5 one two             PASSED
+Verifying h5ls file structure ../testfiles/h5mkgrp_several.h5          PASSED
+FILEOUT= ../testfiles/h5mkgrp_several.h5
+Testing h5mkgrp -p ../testfiles/h5mkgrp_several.h5 one two             PASSED
+Verifying h5ls file structure ../testfiles/h5mkgrp_several.h5          PASSED
+FILEOUT= ../testfiles/h5mkgrp_several.h5
+Testing h5mkgrp -l ../testfiles/h5mkgrp_several_latest.h5 one two      PASSED
+Verifying h5ls file structure ../testfiles/h5mkgrp_several_latest.h5   PASSED
+FILEOUT= ../testfiles/h5mkgrp_several_latest.h5
+Testing h5mkgrp -p ../testfiles/h5mkgrp_nested.h5 /one/two             PASSED
+Verifying h5ls file structure ../testfiles/h5mkgrp_nested.h5           PASSED
+FILEOUT= ../testfiles/h5mkgrp_nested.h5
+Testing h5mkgrp -lp ../testfiles/h5mkgrp_nested_latest.h5 /one/two     PASSED
+Verifying h5ls file structure ../testfiles/h5mkgrp_nested_latest.h5    PASSED
+FILEOUT= ../testfiles/h5mkgrp_nested_latest.h5
+Testing h5mkgrp -p ../testfiles/h5mkgrp_nested_mult.h5 /one/two /three PASSED
+Verifying h5ls file structure ../testfiles/h5mkgrp_nested_mult.h5      PASSED
+FILEOUT= ../testfiles/h5mkgrp_nested_mult.h5
+Testing h5mkgrp -lp ../testfiles/h5mkgrp_nested_mult_latest.h5 /one/tw PASSED
+Verifying h5ls file structure ../testfiles/h5mkgrp_nested_mult_latest. PASSED
+FILEOUT= ../testfiles/h5mkgrp_nested_mult_latest.h5
+All h5mkgrp tests passed.
+0.11user 0.18system 0:00.84elapsed 34%CPU (0avgtext+0avgdata 12608maxresident)k
+0inputs+1256outputs (0major+135477minor)pagefaults 0swaps
+
+Finished testing testh5mkgrp.sh 
+============================

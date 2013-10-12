@@ -1,0 +1,1329 @@
+============================
+ objcopy  Test Log
+============================
+
+Testing without shared src messages:
+Testing without shared dst messages:
+Testing with oldest file format for source file:
+Testing with oldest file format for destination file:
+Testing H5Ocopy(): simple dataset                                      PASSED
+Testing H5Ocopy(): simple dataset within the same file                 PASSED
+Testing H5Ocopy(): empty contiguous dataset                            PASSED
+Testing H5Ocopy(): compound dataset                                    PASSED
+Testing H5Ocopy(): chunked dataset                                     PASSED
+Testing H5Ocopy(): empty chunked dataset                               PASSED
+Testing H5Ocopy(): sparse dataset                                      PASSED
+Testing H5Ocopy(): compressed dataset                                  PASSED
+Testing H5Ocopy(): compact dataset                                     PASSED
+Testing H5Ocopy(): datasets that have multiple ohdr chunks             PASSED
+Testing H5Ocopy(): objects with attributes using named datatypes       PASSED
+Testing H5Ocopy(): empty group                                         PASSED
+Testing H5Ocopy(): root group                                          PASSED
+Testing H5Ocopy(): simple nested groups                                PASSED
+Testing H5Ocopy(): deep nested groups                                  PASSED
+Testing H5Ocopy(): nested groups with loop                             PASSED
+Testing H5Ocopy(): wide nested groups with loop                        PASSED
+Testing H5Ocopy(): group with links                                    PASSED
+Testing H5Ocopy(): object through soft link                            PASSED
+Testing H5Ocopy(): object through external link                        PASSED
+Testing H5Ocopy(): existing object                                     PASSED
+Testing H5Ocopy(): full path                                           PASSED
+Testing H5Ocopy(): named datatype with self-referential attribute      PASSED
+Testing H5Ocopy(): without attributes                                  PASSED
+Testing H5Ocopy(): with missing groups                                 PASSED
+Testing H5Ocopy(): expand soft link                                    PASSED
+Testing H5Ocopy: expand external link                                  PASSED
+Testing H5Ocopy: expand soft and external links                        PASSED
+Testing H5Ocopy(): shallow group copy                                  PASSED
+Testing H5Ocopy(): expand object reference                             PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): named datatype                                      PASSED
+Testing H5Ocopy(): named vlen datatype                                 PASSED
+Testing H5Ocopy(): named nested vlen datatype                          PASSED
+Testing H5Ocopy(): external dataset                                    PASSED
+Testing H5Ocopy(): dataset that uses named datatype                    PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype inside hier. PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype outside hier. PASSED
+Testing H5Ocopy(): contiguous dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): chunked dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compact dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compressed dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): variable length attribute                           PASSED
+Testing H5Ocopy(): compact dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): contigous dataset with named VLEN datatype          PASSED
+Testing H5Ocopy(): chunked dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): compressed dataset with named VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): contigous dataset with nested VLEN datatype         PASSED
+Testing H5Ocopy(): chunked dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): compressed dataset with nested VLEN datatype        PASSED
+Testing H5Ocopy(): contiguous dataset with compound VLEN datatype      PASSED
+Testing H5Ocopy(): chunked dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): named datatype in same file                         PASSED
+Testing H5Ocopy(): dataset with old layout format                      PASSED
+Testing H5Ocopy(): NULL references                                     PASSED
+
+Testing with shared src messages:
+Testing without shared dst messages:
+Testing with oldest file format for source file:
+Testing with oldest file format for destination file:
+Testing H5Ocopy(): simple dataset                                      PASSED
+Testing H5Ocopy(): simple dataset within the same file                 PASSED
+Testing H5Ocopy(): empty contiguous dataset                            PASSED
+Testing H5Ocopy(): compound dataset                                    PASSED
+Testing H5Ocopy(): chunked dataset                                     PASSED
+Testing H5Ocopy(): empty chunked dataset                               PASSED
+Testing H5Ocopy(): sparse dataset                                      PASSED
+Testing H5Ocopy(): compressed dataset                                  PASSED
+Testing H5Ocopy(): compact dataset                                     PASSED
+Testing H5Ocopy(): datasets that have multiple ohdr chunks             PASSED
+Testing H5Ocopy(): objects with attributes using named datatypes       PASSED
+Testing H5Ocopy(): empty group                                         PASSED
+Testing H5Ocopy(): root group                                          PASSED
+Testing H5Ocopy(): simple nested groups                                PASSED
+Testing H5Ocopy(): deep nested groups                                  PASSED
+Testing H5Ocopy(): nested groups with loop                             PASSED
+Testing H5Ocopy(): wide nested groups with loop                        PASSED
+Testing H5Ocopy(): group with links                                    PASSED
+Testing H5Ocopy(): object through soft link                            PASSED
+Testing H5Ocopy(): object through external link                        PASSED
+Testing H5Ocopy(): existing object                                     PASSED
+Testing H5Ocopy(): full path                                           PASSED
+Testing H5Ocopy(): named datatype with self-referential attribute      PASSED
+Testing H5Ocopy(): without attributes                                  PASSED
+Testing H5Ocopy(): with missing groups                                 PASSED
+Testing H5Ocopy(): expand soft link                                    PASSED
+Testing H5Ocopy: expand external link                                  PASSED
+Testing H5Ocopy: expand soft and external links                        PASSED
+Testing H5Ocopy(): shallow group copy                                  PASSED
+Testing H5Ocopy(): expand object reference                             PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): named datatype                                      PASSED
+Testing H5Ocopy(): named vlen datatype                                 PASSED
+Testing H5Ocopy(): named nested vlen datatype                          PASSED
+Testing H5Ocopy(): external dataset                                    PASSED
+Testing H5Ocopy(): dataset that uses named datatype                    PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype inside hier. PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype outside hier. PASSED
+Testing H5Ocopy(): contiguous dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): chunked dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compact dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compressed dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): variable length attribute                           PASSED
+Testing H5Ocopy(): compact dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): contigous dataset with named VLEN datatype          PASSED
+Testing H5Ocopy(): chunked dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): compressed dataset with named VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): contigous dataset with nested VLEN datatype         PASSED
+Testing H5Ocopy(): chunked dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): compressed dataset with nested VLEN datatype        PASSED
+Testing H5Ocopy(): contiguous dataset with compound VLEN datatype      PASSED
+Testing H5Ocopy(): chunked dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): named datatype in same file                         PASSED
+Testing H5Ocopy(): dataset with old layout format                      PASSED
+Testing H5Ocopy(): NULL references                                     PASSED
+
+Testing without shared src messages:
+Testing with shared dst messages:
+Testing with oldest file format for source file:
+Testing with oldest file format for destination file:
+Testing H5Ocopy(): simple dataset                                      PASSED
+Testing H5Ocopy(): simple dataset within the same file                 PASSED
+Testing H5Ocopy(): empty contiguous dataset                            PASSED
+Testing H5Ocopy(): compound dataset                                    PASSED
+Testing H5Ocopy(): chunked dataset                                     PASSED
+Testing H5Ocopy(): empty chunked dataset                               PASSED
+Testing H5Ocopy(): sparse dataset                                      PASSED
+Testing H5Ocopy(): compressed dataset                                  PASSED
+Testing H5Ocopy(): compact dataset                                     PASSED
+Testing H5Ocopy(): datasets that have multiple ohdr chunks             PASSED
+Testing H5Ocopy(): objects with attributes using named datatypes       PASSED
+Testing H5Ocopy(): empty group                                         PASSED
+Testing H5Ocopy(): root group                                          PASSED
+Testing H5Ocopy(): simple nested groups                                PASSED
+Testing H5Ocopy(): deep nested groups                                  PASSED
+Testing H5Ocopy(): nested groups with loop                             PASSED
+Testing H5Ocopy(): wide nested groups with loop                        PASSED
+Testing H5Ocopy(): group with links                                    PASSED
+Testing H5Ocopy(): object through soft link                            PASSED
+Testing H5Ocopy(): object through external link                        PASSED
+Testing H5Ocopy(): existing object                                     PASSED
+Testing H5Ocopy(): full path                                           PASSED
+Testing H5Ocopy(): named datatype with self-referential attribute      PASSED
+Testing H5Ocopy(): without attributes                                  PASSED
+Testing H5Ocopy(): with missing groups                                 PASSED
+Testing H5Ocopy(): expand soft link                                    PASSED
+Testing H5Ocopy: expand external link                                  PASSED
+Testing H5Ocopy: expand soft and external links                        PASSED
+Testing H5Ocopy(): shallow group copy                                  PASSED
+Testing H5Ocopy(): expand object reference                             PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): named datatype                                      PASSED
+Testing H5Ocopy(): named vlen datatype                                 PASSED
+Testing H5Ocopy(): named nested vlen datatype                          PASSED
+Testing H5Ocopy(): external dataset                                    PASSED
+Testing H5Ocopy(): dataset that uses named datatype                    PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype inside hier. PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype outside hier. PASSED
+Testing H5Ocopy(): contiguous dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): chunked dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compact dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compressed dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): variable length attribute                           PASSED
+Testing H5Ocopy(): compact dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): contigous dataset with named VLEN datatype          PASSED
+Testing H5Ocopy(): chunked dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): compressed dataset with named VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): contigous dataset with nested VLEN datatype         PASSED
+Testing H5Ocopy(): chunked dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): compressed dataset with nested VLEN datatype        PASSED
+Testing H5Ocopy(): contiguous dataset with compound VLEN datatype      PASSED
+Testing H5Ocopy(): chunked dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): named datatype in same file                         PASSED
+Testing H5Ocopy(): dataset with old layout format                      PASSED
+Testing H5Ocopy(): NULL references                                     PASSED
+
+Testing with shared src messages:
+Testing with shared dst messages:
+Testing with oldest file format for source file:
+Testing with oldest file format for destination file:
+Testing H5Ocopy(): simple dataset                                      PASSED
+Testing H5Ocopy(): simple dataset within the same file                 PASSED
+Testing H5Ocopy(): empty contiguous dataset                            PASSED
+Testing H5Ocopy(): compound dataset                                    PASSED
+Testing H5Ocopy(): chunked dataset                                     PASSED
+Testing H5Ocopy(): empty chunked dataset                               PASSED
+Testing H5Ocopy(): sparse dataset                                      PASSED
+Testing H5Ocopy(): compressed dataset                                  PASSED
+Testing H5Ocopy(): compact dataset                                     PASSED
+Testing H5Ocopy(): datasets that have multiple ohdr chunks             PASSED
+Testing H5Ocopy(): objects with attributes using named datatypes       PASSED
+Testing H5Ocopy(): empty group                                         PASSED
+Testing H5Ocopy(): root group                                          PASSED
+Testing H5Ocopy(): simple nested groups                                PASSED
+Testing H5Ocopy(): deep nested groups                                  PASSED
+Testing H5Ocopy(): nested groups with loop                             PASSED
+Testing H5Ocopy(): wide nested groups with loop                        PASSED
+Testing H5Ocopy(): group with links                                    PASSED
+Testing H5Ocopy(): object through soft link                            PASSED
+Testing H5Ocopy(): object through external link                        PASSED
+Testing H5Ocopy(): existing object                                     PASSED
+Testing H5Ocopy(): full path                                           PASSED
+Testing H5Ocopy(): named datatype with self-referential attribute      PASSED
+Testing H5Ocopy(): without attributes                                  PASSED
+Testing H5Ocopy(): with missing groups                                 PASSED
+Testing H5Ocopy(): expand soft link                                    PASSED
+Testing H5Ocopy: expand external link                                  PASSED
+Testing H5Ocopy: expand soft and external links                        PASSED
+Testing H5Ocopy(): shallow group copy                                  PASSED
+Testing H5Ocopy(): expand object reference                             PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): named datatype                                      PASSED
+Testing H5Ocopy(): named vlen datatype                                 PASSED
+Testing H5Ocopy(): named nested vlen datatype                          PASSED
+Testing H5Ocopy(): external dataset                                    PASSED
+Testing H5Ocopy(): dataset that uses named datatype                    PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype inside hier. PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype outside hier. PASSED
+Testing H5Ocopy(): contiguous dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): chunked dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compact dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compressed dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): variable length attribute                           PASSED
+Testing H5Ocopy(): compact dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): contigous dataset with named VLEN datatype          PASSED
+Testing H5Ocopy(): chunked dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): compressed dataset with named VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): contigous dataset with nested VLEN datatype         PASSED
+Testing H5Ocopy(): chunked dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): compressed dataset with nested VLEN datatype        PASSED
+Testing H5Ocopy(): contiguous dataset with compound VLEN datatype      PASSED
+Testing H5Ocopy(): chunked dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): named datatype in same file                         PASSED
+Testing H5Ocopy(): dataset with old layout format                      PASSED
+Testing H5Ocopy(): NULL references                                     PASSED
+
+Testing without shared src messages:
+Testing without shared dst messages:
+Testing with latest format for source file:
+Testing without dense attributes:
+Testing with oldest file format for destination file:
+Testing H5Ocopy(): simple dataset                                      PASSED
+Testing H5Ocopy(): simple dataset within the same file                 PASSED
+Testing H5Ocopy(): empty contiguous dataset                            PASSED
+Testing H5Ocopy(): compound dataset                                    PASSED
+Testing H5Ocopy(): chunked dataset                                     PASSED
+Testing H5Ocopy(): empty chunked dataset                               PASSED
+Testing H5Ocopy(): sparse dataset                                      PASSED
+Testing H5Ocopy(): compressed dataset                                  PASSED
+Testing H5Ocopy(): compact dataset                                     PASSED
+Testing H5Ocopy(): datasets that have multiple ohdr chunks             PASSED
+Testing H5Ocopy(): objects with attributes using named datatypes       PASSED
+Testing H5Ocopy(): empty group                                         PASSED
+Testing H5Ocopy(): root group                                          PASSED
+Testing H5Ocopy(): simple nested groups                                PASSED
+Testing H5Ocopy(): deep nested groups                                  PASSED
+Testing H5Ocopy(): nested groups with loop                             PASSED
+Testing H5Ocopy(): wide nested groups with loop                        PASSED
+Testing H5Ocopy(): group with links                                    PASSED
+Testing H5Ocopy(): object through soft link                            PASSED
+Testing H5Ocopy(): object through external link                        PASSED
+Testing H5Ocopy(): existing object                                     PASSED
+Testing H5Ocopy(): full path                                           PASSED
+Testing H5Ocopy(): named datatype with self-referential attribute      PASSED
+Testing H5Ocopy(): without attributes                                  PASSED
+Testing H5Ocopy(): with missing groups                                 PASSED
+Testing H5Ocopy(): expand soft link                                    PASSED
+Testing H5Ocopy: expand external link                                  PASSED
+Testing H5Ocopy: expand soft and external links                        PASSED
+Testing H5Ocopy(): shallow group copy                                  PASSED
+Testing H5Ocopy(): expand object reference                             PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): named datatype                                      PASSED
+Testing H5Ocopy(): named vlen datatype                                 PASSED
+Testing H5Ocopy(): named nested vlen datatype                          PASSED
+Testing H5Ocopy(): external dataset                                    PASSED
+Testing H5Ocopy(): dataset that uses named datatype                    PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype inside hier. PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype outside hier. PASSED
+Testing H5Ocopy(): contiguous dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): chunked dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compact dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compressed dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): variable length attribute                           PASSED
+Testing H5Ocopy(): compact dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): contigous dataset with named VLEN datatype          PASSED
+Testing H5Ocopy(): chunked dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): compressed dataset with named VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): contigous dataset with nested VLEN datatype         PASSED
+Testing H5Ocopy(): chunked dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): compressed dataset with nested VLEN datatype        PASSED
+Testing H5Ocopy(): contiguous dataset with compound VLEN datatype      PASSED
+Testing H5Ocopy(): chunked dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): named datatype in same file                         PASSED
+Testing H5Ocopy(): dataset with old layout format                      PASSED
+Testing H5Ocopy(): NULL references                                     PASSED
+
+Testing with shared src messages:
+Testing without shared dst messages:
+Testing with latest format for source file:
+Testing without dense attributes:
+Testing with oldest file format for destination file:
+Testing H5Ocopy(): simple dataset                                      PASSED
+Testing H5Ocopy(): simple dataset within the same file                 PASSED
+Testing H5Ocopy(): empty contiguous dataset                            PASSED
+Testing H5Ocopy(): compound dataset                                    PASSED
+Testing H5Ocopy(): chunked dataset                                     PASSED
+Testing H5Ocopy(): empty chunked dataset                               PASSED
+Testing H5Ocopy(): sparse dataset                                      PASSED
+Testing H5Ocopy(): compressed dataset                                  PASSED
+Testing H5Ocopy(): compact dataset                                     PASSED
+Testing H5Ocopy(): datasets that have multiple ohdr chunks             PASSED
+Testing H5Ocopy(): objects with attributes using named datatypes       PASSED
+Testing H5Ocopy(): empty group                                         PASSED
+Testing H5Ocopy(): root group                                          PASSED
+Testing H5Ocopy(): simple nested groups                                PASSED
+Testing H5Ocopy(): deep nested groups                                  PASSED
+Testing H5Ocopy(): nested groups with loop                             PASSED
+Testing H5Ocopy(): wide nested groups with loop                        PASSED
+Testing H5Ocopy(): group with links                                    PASSED
+Testing H5Ocopy(): object through soft link                            PASSED
+Testing H5Ocopy(): object through external link                        PASSED
+Testing H5Ocopy(): existing object                                     PASSED
+Testing H5Ocopy(): full path                                           PASSED
+Testing H5Ocopy(): named datatype with self-referential attribute      PASSED
+Testing H5Ocopy(): without attributes                                  PASSED
+Testing H5Ocopy(): with missing groups                                 PASSED
+Testing H5Ocopy(): expand soft link                                    PASSED
+Testing H5Ocopy: expand external link                                  PASSED
+Testing H5Ocopy: expand soft and external links                        PASSED
+Testing H5Ocopy(): shallow group copy                                  PASSED
+Testing H5Ocopy(): expand object reference                             PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): named datatype                                      PASSED
+Testing H5Ocopy(): named vlen datatype                                 PASSED
+Testing H5Ocopy(): named nested vlen datatype                          PASSED
+Testing H5Ocopy(): external dataset                                    PASSED
+Testing H5Ocopy(): dataset that uses named datatype                    PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype inside hier. PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype outside hier. PASSED
+Testing H5Ocopy(): contiguous dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): chunked dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compact dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compressed dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): variable length attribute                           PASSED
+Testing H5Ocopy(): compact dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): contigous dataset with named VLEN datatype          PASSED
+Testing H5Ocopy(): chunked dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): compressed dataset with named VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): contigous dataset with nested VLEN datatype         PASSED
+Testing H5Ocopy(): chunked dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): compressed dataset with nested VLEN datatype        PASSED
+Testing H5Ocopy(): contiguous dataset with compound VLEN datatype      PASSED
+Testing H5Ocopy(): chunked dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): named datatype in same file                         PASSED
+Testing H5Ocopy(): dataset with old layout format                      PASSED
+Testing H5Ocopy(): NULL references                                     PASSED
+
+Testing without shared src messages:
+Testing with shared dst messages:
+Testing with latest format for source file:
+Testing without dense attributes:
+Testing with oldest file format for destination file:
+Testing H5Ocopy(): simple dataset                                      PASSED
+Testing H5Ocopy(): simple dataset within the same file                 PASSED
+Testing H5Ocopy(): empty contiguous dataset                            PASSED
+Testing H5Ocopy(): compound dataset                                    PASSED
+Testing H5Ocopy(): chunked dataset                                     PASSED
+Testing H5Ocopy(): empty chunked dataset                               PASSED
+Testing H5Ocopy(): sparse dataset                                      PASSED
+Testing H5Ocopy(): compressed dataset                                  PASSED
+Testing H5Ocopy(): compact dataset                                     PASSED
+Testing H5Ocopy(): datasets that have multiple ohdr chunks             PASSED
+Testing H5Ocopy(): objects with attributes using named datatypes       PASSED
+Testing H5Ocopy(): empty group                                         PASSED
+Testing H5Ocopy(): root group                                          PASSED
+Testing H5Ocopy(): simple nested groups                                PASSED
+Testing H5Ocopy(): deep nested groups                                  PASSED
+Testing H5Ocopy(): nested groups with loop                             PASSED
+Testing H5Ocopy(): wide nested groups with loop                        PASSED
+Testing H5Ocopy(): group with links                                    PASSED
+Testing H5Ocopy(): object through soft link                            PASSED
+Testing H5Ocopy(): object through external link                        PASSED
+Testing H5Ocopy(): existing object                                     PASSED
+Testing H5Ocopy(): full path                                           PASSED
+Testing H5Ocopy(): named datatype with self-referential attribute      PASSED
+Testing H5Ocopy(): without attributes                                  PASSED
+Testing H5Ocopy(): with missing groups                                 PASSED
+Testing H5Ocopy(): expand soft link                                    PASSED
+Testing H5Ocopy: expand external link                                  PASSED
+Testing H5Ocopy: expand soft and external links                        PASSED
+Testing H5Ocopy(): shallow group copy                                  PASSED
+Testing H5Ocopy(): expand object reference                             PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): named datatype                                      PASSED
+Testing H5Ocopy(): named vlen datatype                                 PASSED
+Testing H5Ocopy(): named nested vlen datatype                          PASSED
+Testing H5Ocopy(): external dataset                                    PASSED
+Testing H5Ocopy(): dataset that uses named datatype                    PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype inside hier. PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype outside hier. PASSED
+Testing H5Ocopy(): contiguous dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): chunked dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compact dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compressed dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): variable length attribute                           PASSED
+Testing H5Ocopy(): compact dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): contigous dataset with named VLEN datatype          PASSED
+Testing H5Ocopy(): chunked dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): compressed dataset with named VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): contigous dataset with nested VLEN datatype         PASSED
+Testing H5Ocopy(): chunked dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): compressed dataset with nested VLEN datatype        PASSED
+Testing H5Ocopy(): contiguous dataset with compound VLEN datatype      PASSED
+Testing H5Ocopy(): chunked dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): named datatype in same file                         PASSED
+Testing H5Ocopy(): dataset with old layout format                      PASSED
+Testing H5Ocopy(): NULL references                                     PASSED
+
+Testing with shared src messages:
+Testing with shared dst messages:
+Testing with latest format for source file:
+Testing without dense attributes:
+Testing with oldest file format for destination file:
+Testing H5Ocopy(): simple dataset                                      PASSED
+Testing H5Ocopy(): simple dataset within the same file                 PASSED
+Testing H5Ocopy(): empty contiguous dataset                            PASSED
+Testing H5Ocopy(): compound dataset                                    PASSED
+Testing H5Ocopy(): chunked dataset                                     PASSED
+Testing H5Ocopy(): empty chunked dataset                               PASSED
+Testing H5Ocopy(): sparse dataset                                      PASSED
+Testing H5Ocopy(): compressed dataset                                  PASSED
+Testing H5Ocopy(): compact dataset                                     PASSED
+Testing H5Ocopy(): datasets that have multiple ohdr chunks             PASSED
+Testing H5Ocopy(): objects with attributes using named datatypes       PASSED
+Testing H5Ocopy(): empty group                                         PASSED
+Testing H5Ocopy(): root group                                          PASSED
+Testing H5Ocopy(): simple nested groups                                PASSED
+Testing H5Ocopy(): deep nested groups                                  PASSED
+Testing H5Ocopy(): nested groups with loop                             PASSED
+Testing H5Ocopy(): wide nested groups with loop                        PASSED
+Testing H5Ocopy(): group with links                                    PASSED
+Testing H5Ocopy(): object through soft link                            PASSED
+Testing H5Ocopy(): object through external link                        PASSED
+Testing H5Ocopy(): existing object                                     PASSED
+Testing H5Ocopy(): full path                                           PASSED
+Testing H5Ocopy(): named datatype with self-referential attribute      PASSED
+Testing H5Ocopy(): without attributes                                  PASSED
+Testing H5Ocopy(): with missing groups                                 PASSED
+Testing H5Ocopy(): expand soft link                                    PASSED
+Testing H5Ocopy: expand external link                                  PASSED
+Testing H5Ocopy: expand soft and external links                        PASSED
+Testing H5Ocopy(): shallow group copy                                  PASSED
+Testing H5Ocopy(): expand object reference                             PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): named datatype                                      PASSED
+Testing H5Ocopy(): named vlen datatype                                 PASSED
+Testing H5Ocopy(): named nested vlen datatype                          PASSED
+Testing H5Ocopy(): external dataset                                    PASSED
+Testing H5Ocopy(): dataset that uses named datatype                    PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype inside hier. PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype outside hier. PASSED
+Testing H5Ocopy(): contiguous dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): chunked dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compact dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compressed dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): variable length attribute                           PASSED
+Testing H5Ocopy(): compact dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): contigous dataset with named VLEN datatype          PASSED
+Testing H5Ocopy(): chunked dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): compressed dataset with named VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): contigous dataset with nested VLEN datatype         PASSED
+Testing H5Ocopy(): chunked dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): compressed dataset with nested VLEN datatype        PASSED
+Testing H5Ocopy(): contiguous dataset with compound VLEN datatype      PASSED
+Testing H5Ocopy(): chunked dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): named datatype in same file                         PASSED
+Testing H5Ocopy(): dataset with old layout format                      PASSED
+Testing H5Ocopy(): NULL references                                     PASSED
+
+Testing without shared src messages:
+Testing without shared dst messages:
+Testing with oldest file format for source file:
+Testing with latest format for destination file:
+Testing H5Ocopy(): simple dataset                                      PASSED
+Testing H5Ocopy(): simple dataset within the same file                 PASSED
+Testing H5Ocopy(): empty contiguous dataset                            PASSED
+Testing H5Ocopy(): compound dataset                                    PASSED
+Testing H5Ocopy(): chunked dataset                                     PASSED
+Testing H5Ocopy(): empty chunked dataset                               PASSED
+Testing H5Ocopy(): sparse dataset                                      PASSED
+Testing H5Ocopy(): compressed dataset                                  PASSED
+Testing H5Ocopy(): compact dataset                                     PASSED
+Testing H5Ocopy(): datasets that have multiple ohdr chunks             PASSED
+Testing H5Ocopy(): objects with attributes using named datatypes       PASSED
+Testing H5Ocopy(): empty group                                         PASSED
+Testing H5Ocopy(): root group                                          PASSED
+Testing H5Ocopy(): simple nested groups                                PASSED
+Testing H5Ocopy(): deep nested groups                                  PASSED
+Testing H5Ocopy(): nested groups with loop                             PASSED
+Testing H5Ocopy(): wide nested groups with loop                        PASSED
+Testing H5Ocopy(): group with links                                    PASSED
+Testing H5Ocopy(): object through soft link                            PASSED
+Testing H5Ocopy(): object through external link                        PASSED
+Testing H5Ocopy(): existing object                                     PASSED
+Testing H5Ocopy(): full path                                           PASSED
+Testing H5Ocopy(): named datatype with self-referential attribute      PASSED
+Testing H5Ocopy(): without attributes                                  PASSED
+Testing H5Ocopy(): with missing groups                                 PASSED
+Testing H5Ocopy(): expand soft link                                    PASSED
+Testing H5Ocopy: expand external link                                  PASSED
+Testing H5Ocopy: expand soft and external links                        PASSED
+Testing H5Ocopy(): shallow group copy                                  PASSED
+Testing H5Ocopy(): expand object reference                             PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): named datatype                                      PASSED
+Testing H5Ocopy(): named vlen datatype                                 PASSED
+Testing H5Ocopy(): named nested vlen datatype                          PASSED
+Testing H5Ocopy(): external dataset                                    PASSED
+Testing H5Ocopy(): dataset that uses named datatype                    PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype inside hier. PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype outside hier. PASSED
+Testing H5Ocopy(): contiguous dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): chunked dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compact dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compressed dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): variable length attribute                           PASSED
+Testing H5Ocopy(): compact dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): contigous dataset with named VLEN datatype          PASSED
+Testing H5Ocopy(): chunked dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): compressed dataset with named VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): contigous dataset with nested VLEN datatype         PASSED
+Testing H5Ocopy(): chunked dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): compressed dataset with nested VLEN datatype        PASSED
+Testing H5Ocopy(): contiguous dataset with compound VLEN datatype      PASSED
+Testing H5Ocopy(): chunked dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): named datatype in same file                         PASSED
+Testing H5Ocopy(): dataset with old layout format                      PASSED
+Testing H5Ocopy(): NULL references                                     PASSED
+
+Testing with shared src messages:
+Testing without shared dst messages:
+Testing with oldest file format for source file:
+Testing with latest format for destination file:
+Testing H5Ocopy(): simple dataset                                      PASSED
+Testing H5Ocopy(): simple dataset within the same file                 PASSED
+Testing H5Ocopy(): empty contiguous dataset                            PASSED
+Testing H5Ocopy(): compound dataset                                    PASSED
+Testing H5Ocopy(): chunked dataset                                     PASSED
+Testing H5Ocopy(): empty chunked dataset                               PASSED
+Testing H5Ocopy(): sparse dataset                                      PASSED
+Testing H5Ocopy(): compressed dataset                                  PASSED
+Testing H5Ocopy(): compact dataset                                     PASSED
+Testing H5Ocopy(): datasets that have multiple ohdr chunks             PASSED
+Testing H5Ocopy(): objects with attributes using named datatypes       PASSED
+Testing H5Ocopy(): empty group                                         PASSED
+Testing H5Ocopy(): root group                                          PASSED
+Testing H5Ocopy(): simple nested groups                                PASSED
+Testing H5Ocopy(): deep nested groups                                  PASSED
+Testing H5Ocopy(): nested groups with loop                             PASSED
+Testing H5Ocopy(): wide nested groups with loop                        PASSED
+Testing H5Ocopy(): group with links                                    PASSED
+Testing H5Ocopy(): object through soft link                            PASSED
+Testing H5Ocopy(): object through external link                        PASSED
+Testing H5Ocopy(): existing object                                     PASSED
+Testing H5Ocopy(): full path                                           PASSED
+Testing H5Ocopy(): named datatype with self-referential attribute      PASSED
+Testing H5Ocopy(): without attributes                                  PASSED
+Testing H5Ocopy(): with missing groups                                 PASSED
+Testing H5Ocopy(): expand soft link                                    PASSED
+Testing H5Ocopy: expand external link                                  PASSED
+Testing H5Ocopy: expand soft and external links                        PASSED
+Testing H5Ocopy(): shallow group copy                                  PASSED
+Testing H5Ocopy(): expand object reference                             PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): named datatype                                      PASSED
+Testing H5Ocopy(): named vlen datatype                                 PASSED
+Testing H5Ocopy(): named nested vlen datatype                          PASSED
+Testing H5Ocopy(): external dataset                                    PASSED
+Testing H5Ocopy(): dataset that uses named datatype                    PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype inside hier. PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype outside hier. PASSED
+Testing H5Ocopy(): contiguous dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): chunked dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compact dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compressed dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): variable length attribute                           PASSED
+Testing H5Ocopy(): compact dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): contigous dataset with named VLEN datatype          PASSED
+Testing H5Ocopy(): chunked dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): compressed dataset with named VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): contigous dataset with nested VLEN datatype         PASSED
+Testing H5Ocopy(): chunked dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): compressed dataset with nested VLEN datatype        PASSED
+Testing H5Ocopy(): contiguous dataset with compound VLEN datatype      PASSED
+Testing H5Ocopy(): chunked dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): named datatype in same file                         PASSED
+Testing H5Ocopy(): dataset with old layout format                      PASSED
+Testing H5Ocopy(): NULL references                                     PASSED
+
+Testing without shared src messages:
+Testing with shared dst messages:
+Testing with oldest file format for source file:
+Testing with latest format for destination file:
+Testing H5Ocopy(): simple dataset                                      PASSED
+Testing H5Ocopy(): simple dataset within the same file                 PASSED
+Testing H5Ocopy(): empty contiguous dataset                            PASSED
+Testing H5Ocopy(): compound dataset                                    PASSED
+Testing H5Ocopy(): chunked dataset                                     PASSED
+Testing H5Ocopy(): empty chunked dataset                               PASSED
+Testing H5Ocopy(): sparse dataset                                      PASSED
+Testing H5Ocopy(): compressed dataset                                  PASSED
+Testing H5Ocopy(): compact dataset                                     PASSED
+Testing H5Ocopy(): datasets that have multiple ohdr chunks             PASSED
+Testing H5Ocopy(): objects with attributes using named datatypes       PASSED
+Testing H5Ocopy(): empty group                                         PASSED
+Testing H5Ocopy(): root group                                          PASSED
+Testing H5Ocopy(): simple nested groups                                PASSED
+Testing H5Ocopy(): deep nested groups                                  PASSED
+Testing H5Ocopy(): nested groups with loop                             PASSED
+Testing H5Ocopy(): wide nested groups with loop                        PASSED
+Testing H5Ocopy(): group with links                                    PASSED
+Testing H5Ocopy(): object through soft link                            PASSED
+Testing H5Ocopy(): object through external link                        PASSED
+Testing H5Ocopy(): existing object                                     PASSED
+Testing H5Ocopy(): full path                                           PASSED
+Testing H5Ocopy(): named datatype with self-referential attribute      PASSED
+Testing H5Ocopy(): without attributes                                  PASSED
+Testing H5Ocopy(): with missing groups                                 PASSED
+Testing H5Ocopy(): expand soft link                                    PASSED
+Testing H5Ocopy: expand external link                                  PASSED
+Testing H5Ocopy: expand soft and external links                        PASSED
+Testing H5Ocopy(): shallow group copy                                  PASSED
+Testing H5Ocopy(): expand object reference                             PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): named datatype                                      PASSED
+Testing H5Ocopy(): named vlen datatype                                 PASSED
+Testing H5Ocopy(): named nested vlen datatype                          PASSED
+Testing H5Ocopy(): external dataset                                    PASSED
+Testing H5Ocopy(): dataset that uses named datatype                    PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype inside hier. PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype outside hier. PASSED
+Testing H5Ocopy(): contiguous dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): chunked dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compact dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compressed dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): variable length attribute                           PASSED
+Testing H5Ocopy(): compact dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): contigous dataset with named VLEN datatype          PASSED
+Testing H5Ocopy(): chunked dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): compressed dataset with named VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): contigous dataset with nested VLEN datatype         PASSED
+Testing H5Ocopy(): chunked dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): compressed dataset with nested VLEN datatype        PASSED
+Testing H5Ocopy(): contiguous dataset with compound VLEN datatype      PASSED
+Testing H5Ocopy(): chunked dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): named datatype in same file                         PASSED
+Testing H5Ocopy(): dataset with old layout format                      PASSED
+Testing H5Ocopy(): NULL references                                     PASSED
+
+Testing with shared src messages:
+Testing with shared dst messages:
+Testing with oldest file format for source file:
+Testing with latest format for destination file:
+Testing H5Ocopy(): simple dataset                                      PASSED
+Testing H5Ocopy(): simple dataset within the same file                 PASSED
+Testing H5Ocopy(): empty contiguous dataset                            PASSED
+Testing H5Ocopy(): compound dataset                                    PASSED
+Testing H5Ocopy(): chunked dataset                                     PASSED
+Testing H5Ocopy(): empty chunked dataset                               PASSED
+Testing H5Ocopy(): sparse dataset                                      PASSED
+Testing H5Ocopy(): compressed dataset                                  PASSED
+Testing H5Ocopy(): compact dataset                                     PASSED
+Testing H5Ocopy(): datasets that have multiple ohdr chunks             PASSED
+Testing H5Ocopy(): objects with attributes using named datatypes       PASSED
+Testing H5Ocopy(): empty group                                         PASSED
+Testing H5Ocopy(): root group                                          PASSED
+Testing H5Ocopy(): simple nested groups                                PASSED
+Testing H5Ocopy(): deep nested groups                                  PASSED
+Testing H5Ocopy(): nested groups with loop                             PASSED
+Testing H5Ocopy(): wide nested groups with loop                        PASSED
+Testing H5Ocopy(): group with links                                    PASSED
+Testing H5Ocopy(): object through soft link                            PASSED
+Testing H5Ocopy(): object through external link                        PASSED
+Testing H5Ocopy(): existing object                                     PASSED
+Testing H5Ocopy(): full path                                           PASSED
+Testing H5Ocopy(): named datatype with self-referential attribute      PASSED
+Testing H5Ocopy(): without attributes                                  PASSED
+Testing H5Ocopy(): with missing groups                                 PASSED
+Testing H5Ocopy(): expand soft link                                    PASSED
+Testing H5Ocopy: expand external link                                  PASSED
+Testing H5Ocopy: expand soft and external links                        PASSED
+Testing H5Ocopy(): shallow group copy                                  PASSED
+Testing H5Ocopy(): expand object reference                             PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): named datatype                                      PASSED
+Testing H5Ocopy(): named vlen datatype                                 PASSED
+Testing H5Ocopy(): named nested vlen datatype                          PASSED
+Testing H5Ocopy(): external dataset                                    PASSED
+Testing H5Ocopy(): dataset that uses named datatype                    PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype inside hier. PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype outside hier. PASSED
+Testing H5Ocopy(): contiguous dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): chunked dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compact dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compressed dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): variable length attribute                           PASSED
+Testing H5Ocopy(): compact dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): contigous dataset with named VLEN datatype          PASSED
+Testing H5Ocopy(): chunked dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): compressed dataset with named VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): contigous dataset with nested VLEN datatype         PASSED
+Testing H5Ocopy(): chunked dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): compressed dataset with nested VLEN datatype        PASSED
+Testing H5Ocopy(): contiguous dataset with compound VLEN datatype      PASSED
+Testing H5Ocopy(): chunked dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): named datatype in same file                         PASSED
+Testing H5Ocopy(): dataset with old layout format                      PASSED
+Testing H5Ocopy(): NULL references                                     PASSED
+
+Testing without shared src messages:
+Testing without shared dst messages:
+Testing with latest format for source file:
+Testing without dense attributes:
+Testing with latest format for destination file:
+Testing H5Ocopy(): simple dataset                                      PASSED
+Testing H5Ocopy(): simple dataset within the same file                 PASSED
+Testing H5Ocopy(): empty contiguous dataset                            PASSED
+Testing H5Ocopy(): compound dataset                                    PASSED
+Testing H5Ocopy(): chunked dataset                                     PASSED
+Testing H5Ocopy(): empty chunked dataset                               PASSED
+Testing H5Ocopy(): sparse dataset                                      PASSED
+Testing H5Ocopy(): compressed dataset                                  PASSED
+Testing H5Ocopy(): compact dataset                                     PASSED
+Testing H5Ocopy(): datasets that have multiple ohdr chunks             PASSED
+Testing H5Ocopy(): objects with attributes using named datatypes       PASSED
+Testing H5Ocopy(): empty group                                         PASSED
+Testing H5Ocopy(): root group                                          PASSED
+Testing H5Ocopy(): simple nested groups                                PASSED
+Testing H5Ocopy(): deep nested groups                                  PASSED
+Testing H5Ocopy(): nested groups with loop                             PASSED
+Testing H5Ocopy(): wide nested groups with loop                        PASSED
+Testing H5Ocopy(): group with links                                    PASSED
+Testing H5Ocopy(): object through soft link                            PASSED
+Testing H5Ocopy(): object through external link                        PASSED
+Testing H5Ocopy(): existing object                                     PASSED
+Testing H5Ocopy(): full path                                           PASSED
+Testing H5Ocopy(): named datatype with self-referential attribute      PASSED
+Testing H5Ocopy(): without attributes                                  PASSED
+Testing H5Ocopy(): with missing groups                                 PASSED
+Testing H5Ocopy(): expand soft link                                    PASSED
+Testing H5Ocopy: expand external link                                  PASSED
+Testing H5Ocopy: expand soft and external links                        PASSED
+Testing H5Ocopy(): shallow group copy                                  PASSED
+Testing H5Ocopy(): expand object reference                             PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): named datatype                                      PASSED
+Testing H5Ocopy(): named vlen datatype                                 PASSED
+Testing H5Ocopy(): named nested vlen datatype                          PASSED
+Testing H5Ocopy(): external dataset                                    PASSED
+Testing H5Ocopy(): dataset that uses named datatype                    PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype inside hier. PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype outside hier. PASSED
+Testing H5Ocopy(): contiguous dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): chunked dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compact dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compressed dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): variable length attribute                           PASSED
+Testing H5Ocopy(): compact dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): contigous dataset with named VLEN datatype          PASSED
+Testing H5Ocopy(): chunked dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): compressed dataset with named VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): contigous dataset with nested VLEN datatype         PASSED
+Testing H5Ocopy(): chunked dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): compressed dataset with nested VLEN datatype        PASSED
+Testing H5Ocopy(): contiguous dataset with compound VLEN datatype      PASSED
+Testing H5Ocopy(): chunked dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): named datatype in same file                         PASSED
+Testing H5Ocopy(): dataset with old layout format                      PASSED
+Testing H5Ocopy(): NULL references                                     PASSED
+
+Testing with shared src messages:
+Testing without shared dst messages:
+Testing with latest format for source file:
+Testing without dense attributes:
+Testing with latest format for destination file:
+Testing H5Ocopy(): simple dataset                                      PASSED
+Testing H5Ocopy(): simple dataset within the same file                 PASSED
+Testing H5Ocopy(): empty contiguous dataset                            PASSED
+Testing H5Ocopy(): compound dataset                                    PASSED
+Testing H5Ocopy(): chunked dataset                                     PASSED
+Testing H5Ocopy(): empty chunked dataset                               PASSED
+Testing H5Ocopy(): sparse dataset                                      PASSED
+Testing H5Ocopy(): compressed dataset                                  PASSED
+Testing H5Ocopy(): compact dataset                                     PASSED
+Testing H5Ocopy(): datasets that have multiple ohdr chunks             PASSED
+Testing H5Ocopy(): objects with attributes using named datatypes       PASSED
+Testing H5Ocopy(): empty group                                         PASSED
+Testing H5Ocopy(): root group                                          PASSED
+Testing H5Ocopy(): simple nested groups                                PASSED
+Testing H5Ocopy(): deep nested groups                                  PASSED
+Testing H5Ocopy(): nested groups with loop                             PASSED
+Testing H5Ocopy(): wide nested groups with loop                        PASSED
+Testing H5Ocopy(): group with links                                    PASSED
+Testing H5Ocopy(): object through soft link                            PASSED
+Testing H5Ocopy(): object through external link                        PASSED
+Testing H5Ocopy(): existing object                                     PASSED
+Testing H5Ocopy(): full path                                           PASSED
+Testing H5Ocopy(): named datatype with self-referential attribute      PASSED
+Testing H5Ocopy(): without attributes                                  PASSED
+Testing H5Ocopy(): with missing groups                                 PASSED
+Testing H5Ocopy(): expand soft link                                    PASSED
+Testing H5Ocopy: expand external link                                  PASSED
+Testing H5Ocopy: expand soft and external links                        PASSED
+Testing H5Ocopy(): shallow group copy                                  PASSED
+Testing H5Ocopy(): expand object reference                             PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): named datatype                                      PASSED
+Testing H5Ocopy(): named vlen datatype                                 PASSED
+Testing H5Ocopy(): named nested vlen datatype                          PASSED
+Testing H5Ocopy(): external dataset                                    PASSED
+Testing H5Ocopy(): dataset that uses named datatype                    PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype inside hier. PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype outside hier. PASSED
+Testing H5Ocopy(): contiguous dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): chunked dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compact dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compressed dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): variable length attribute                           PASSED
+Testing H5Ocopy(): compact dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): contigous dataset with named VLEN datatype          PASSED
+Testing H5Ocopy(): chunked dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): compressed dataset with named VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): contigous dataset with nested VLEN datatype         PASSED
+Testing H5Ocopy(): chunked dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): compressed dataset with nested VLEN datatype        PASSED
+Testing H5Ocopy(): contiguous dataset with compound VLEN datatype      PASSED
+Testing H5Ocopy(): chunked dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): named datatype in same file                         PASSED
+Testing H5Ocopy(): dataset with old layout format                      PASSED
+Testing H5Ocopy(): NULL references                                     PASSED
+
+Testing without shared src messages:
+Testing with shared dst messages:
+Testing with latest format for source file:
+Testing without dense attributes:
+Testing with latest format for destination file:
+Testing H5Ocopy(): simple dataset                                      PASSED
+Testing H5Ocopy(): simple dataset within the same file                 PASSED
+Testing H5Ocopy(): empty contiguous dataset                            PASSED
+Testing H5Ocopy(): compound dataset                                    PASSED
+Testing H5Ocopy(): chunked dataset                                     PASSED
+Testing H5Ocopy(): empty chunked dataset                               PASSED
+Testing H5Ocopy(): sparse dataset                                      PASSED
+Testing H5Ocopy(): compressed dataset                                  PASSED
+Testing H5Ocopy(): compact dataset                                     PASSED
+Testing H5Ocopy(): datasets that have multiple ohdr chunks             PASSED
+Testing H5Ocopy(): objects with attributes using named datatypes       PASSED
+Testing H5Ocopy(): empty group                                         PASSED
+Testing H5Ocopy(): root group                                          PASSED
+Testing H5Ocopy(): simple nested groups                                PASSED
+Testing H5Ocopy(): deep nested groups                                  PASSED
+Testing H5Ocopy(): nested groups with loop                             PASSED
+Testing H5Ocopy(): wide nested groups with loop                        PASSED
+Testing H5Ocopy(): group with links                                    PASSED
+Testing H5Ocopy(): object through soft link                            PASSED
+Testing H5Ocopy(): object through external link                        PASSED
+Testing H5Ocopy(): existing object                                     PASSED
+Testing H5Ocopy(): full path                                           PASSED
+Testing H5Ocopy(): named datatype with self-referential attribute      PASSED
+Testing H5Ocopy(): without attributes                                  PASSED
+Testing H5Ocopy(): with missing groups                                 PASSED
+Testing H5Ocopy(): expand soft link                                    PASSED
+Testing H5Ocopy: expand external link                                  PASSED
+Testing H5Ocopy: expand soft and external links                        PASSED
+Testing H5Ocopy(): shallow group copy                                  PASSED
+Testing H5Ocopy(): expand object reference                             PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): named datatype                                      PASSED
+Testing H5Ocopy(): named vlen datatype                                 PASSED
+Testing H5Ocopy(): named nested vlen datatype                          PASSED
+Testing H5Ocopy(): external dataset                                    PASSED
+Testing H5Ocopy(): dataset that uses named datatype                    PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype inside hier. PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype outside hier. PASSED
+Testing H5Ocopy(): contiguous dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): chunked dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compact dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compressed dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): variable length attribute                           PASSED
+Testing H5Ocopy(): compact dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): contigous dataset with named VLEN datatype          PASSED
+Testing H5Ocopy(): chunked dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): compressed dataset with named VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): contigous dataset with nested VLEN datatype         PASSED
+Testing H5Ocopy(): chunked dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): compressed dataset with nested VLEN datatype        PASSED
+Testing H5Ocopy(): contiguous dataset with compound VLEN datatype      PASSED
+Testing H5Ocopy(): chunked dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): named datatype in same file                         PASSED
+Testing H5Ocopy(): dataset with old layout format                      PASSED
+Testing H5Ocopy(): NULL references                                     PASSED
+
+Testing with shared src messages:
+Testing with shared dst messages:
+Testing with latest format for source file:
+Testing without dense attributes:
+Testing with latest format for destination file:
+Testing H5Ocopy(): simple dataset                                      PASSED
+Testing H5Ocopy(): simple dataset within the same file                 PASSED
+Testing H5Ocopy(): empty contiguous dataset                            PASSED
+Testing H5Ocopy(): compound dataset                                    PASSED
+Testing H5Ocopy(): chunked dataset                                     PASSED
+Testing H5Ocopy(): empty chunked dataset                               PASSED
+Testing H5Ocopy(): sparse dataset                                      PASSED
+Testing H5Ocopy(): compressed dataset                                  PASSED
+Testing H5Ocopy(): compact dataset                                     PASSED
+Testing H5Ocopy(): datasets that have multiple ohdr chunks             PASSED
+Testing H5Ocopy(): objects with attributes using named datatypes       PASSED
+Testing H5Ocopy(): empty group                                         PASSED
+Testing H5Ocopy(): root group                                          PASSED
+Testing H5Ocopy(): simple nested groups                                PASSED
+Testing H5Ocopy(): deep nested groups                                  PASSED
+Testing H5Ocopy(): nested groups with loop                             PASSED
+Testing H5Ocopy(): wide nested groups with loop                        PASSED
+Testing H5Ocopy(): group with links                                    PASSED
+Testing H5Ocopy(): object through soft link                            PASSED
+Testing H5Ocopy(): object through external link                        PASSED
+Testing H5Ocopy(): existing object                                     PASSED
+Testing H5Ocopy(): full path                                           PASSED
+Testing H5Ocopy(): named datatype with self-referential attribute      PASSED
+Testing H5Ocopy(): without attributes                                  PASSED
+Testing H5Ocopy(): with missing groups                                 PASSED
+Testing H5Ocopy(): expand soft link                                    PASSED
+Testing H5Ocopy: expand external link                                  PASSED
+Testing H5Ocopy: expand soft and external links                        PASSED
+Testing H5Ocopy(): shallow group copy                                  PASSED
+Testing H5Ocopy(): expand object reference                             PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): named datatype                                      PASSED
+Testing H5Ocopy(): named vlen datatype                                 PASSED
+Testing H5Ocopy(): named nested vlen datatype                          PASSED
+Testing H5Ocopy(): external dataset                                    PASSED
+Testing H5Ocopy(): dataset that uses named datatype                    PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype inside hier. PASSED
+Testing H5Ocopy(): hier. of datasets using named datatype outside hier. PASSED
+Testing H5Ocopy(): contiguous dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): chunked dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compact dataset with VLEN datatype                  PASSED
+Testing H5Ocopy(): compressed dataset with VLEN datatype               PASSED
+Testing H5Ocopy(): variable length attribute                           PASSED
+Testing H5Ocopy(): compact dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): contigous dataset with named VLEN datatype          PASSED
+Testing H5Ocopy(): chunked dataset with named VLEN datatype            PASSED
+Testing H5Ocopy(): compressed dataset with named VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): contigous dataset with nested VLEN datatype         PASSED
+Testing H5Ocopy(): chunked dataset with nested VLEN datatype           PASSED
+Testing H5Ocopy(): compressed dataset with nested VLEN datatype        PASSED
+Testing H5Ocopy(): contiguous dataset with compound VLEN datatype      PASSED
+Testing H5Ocopy(): chunked dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): compact dataset with compound VLEN datatype         PASSED
+Testing H5Ocopy(): named datatype in same file                         PASSED
+Testing H5Ocopy(): dataset with old layout format                      PASSED
+Testing H5Ocopy(): NULL references                                     PASSED
+
+Testing without shared src messages:
+Testing without shared dst messages:
+Testing with latest format for source file:
+Testing with dense attributes:
+Testing with oldest file format for destination file:
+Testing H5Ocopy(): simple dataset                                      PASSED
+Testing H5Ocopy(): simple dataset within the same file                 PASSED
+Testing H5Ocopy(): empty contiguous dataset                            PASSED
+Testing H5Ocopy(): compound dataset                                    PASSED
+Testing H5Ocopy(): chunked dataset                                     PASSED
+Testing H5Ocopy(): empty chunked dataset                               PASSED
+Testing H5Ocopy(): sparse dataset                                      PASSED
+Testing H5Ocopy(): compressed dataset                                  PASSED
+Testing H5Ocopy(): compact dataset                                     PASSED
+Testing H5Ocopy(): datasets that have multiple ohdr chunks             PASSED
+Testing H5Ocopy(): objects with attributes using named datatypes       PASSED
+Testing H5Ocopy(): empty group                                         PASSED
+Testing H5Ocopy(): root group                                          PASSED
+Testing H5Ocopy(): simple nested groups                                PASSED
+Testing H5Ocopy(): deep nested groups                                  PASSED
+Testing H5Ocopy(): nested groups with loop                             PASSED
+Testing H5Ocopy(): wide nested groups with loop                        PASSED
+Testing H5Ocopy(): group with links                                    PASSED
+Testing H5Ocopy(): object through soft link                            PASSED
+Testing H5Ocopy(): object through external link                        PASSED
+Testing H5Ocopy(): existing object                                     PASSED
+Testing H5Ocopy(): full path                                           PASSED
+Testing H5Ocopy(): named datatype with self-referential attribute      PASSED
+Testing H5Ocopy(): without attributes                                  PASSED
+Testing H5Ocopy(): with missing groups                                 PASSED
+Testing H5Ocopy(): expand soft link                                    PASSED
+Testing H5Ocopy: expand external link                                  PASSED
+Testing H5Ocopy: expand soft and external links                        PASSED
+Testing H5Ocopy(): shallow group copy                                  PASSED
+Testing H5Ocopy(): expand object reference                             PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+
+Testing with shared src messages:
+Testing without shared dst messages:
+Testing with latest format for source file:
+Testing with dense attributes:
+Testing with oldest file format for destination file:
+Testing H5Ocopy(): simple dataset                                      PASSED
+Testing H5Ocopy(): simple dataset within the same file                 PASSED
+Testing H5Ocopy(): empty contiguous dataset                            PASSED
+Testing H5Ocopy(): compound dataset                                    PASSED
+Testing H5Ocopy(): chunked dataset                                     PASSED
+Testing H5Ocopy(): empty chunked dataset                               PASSED
+Testing H5Ocopy(): sparse dataset                                      PASSED
+Testing H5Ocopy(): compressed dataset                                  PASSED
+Testing H5Ocopy(): compact dataset                                     PASSED
+Testing H5Ocopy(): datasets that have multiple ohdr chunks             PASSED
+Testing H5Ocopy(): objects with attributes using named datatypes       PASSED
+Testing H5Ocopy(): empty group                                         PASSED
+Testing H5Ocopy(): root group                                          PASSED
+Testing H5Ocopy(): simple nested groups                                PASSED
+Testing H5Ocopy(): deep nested groups                                  PASSED
+Testing H5Ocopy(): nested groups with loop                             PASSED
+Testing H5Ocopy(): wide nested groups with loop                        PASSED
+Testing H5Ocopy(): group with links                                    PASSED
+Testing H5Ocopy(): object through soft link                            PASSED
+Testing H5Ocopy(): object through external link                        PASSED
+Testing H5Ocopy(): existing object                                     PASSED
+Testing H5Ocopy(): full path                                           PASSED
+Testing H5Ocopy(): named datatype with self-referential attribute      PASSED
+Testing H5Ocopy(): without attributes                                  PASSED
+Testing H5Ocopy(): with missing groups                                 PASSED
+Testing H5Ocopy(): expand soft link                                    PASSED
+Testing H5Ocopy: expand external link                                  PASSED
+Testing H5Ocopy: expand soft and external links                        PASSED
+Testing H5Ocopy(): shallow group copy                                  PASSED
+Testing H5Ocopy(): expand object reference                             PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+
+Testing without shared src messages:
+Testing with shared dst messages:
+Testing with latest format for source file:
+Testing with dense attributes:
+Testing with oldest file format for destination file:
+Testing H5Ocopy(): simple dataset                                      PASSED
+Testing H5Ocopy(): simple dataset within the same file                 PASSED
+Testing H5Ocopy(): empty contiguous dataset                            PASSED
+Testing H5Ocopy(): compound dataset                                    PASSED
+Testing H5Ocopy(): chunked dataset                                     PASSED
+Testing H5Ocopy(): empty chunked dataset                               PASSED
+Testing H5Ocopy(): sparse dataset                                      PASSED
+Testing H5Ocopy(): compressed dataset                                  PASSED
+Testing H5Ocopy(): compact dataset                                     PASSED
+Testing H5Ocopy(): datasets that have multiple ohdr chunks             PASSED
+Testing H5Ocopy(): objects with attributes using named datatypes       PASSED
+Testing H5Ocopy(): empty group                                         PASSED
+Testing H5Ocopy(): root group                                          PASSED
+Testing H5Ocopy(): simple nested groups                                PASSED
+Testing H5Ocopy(): deep nested groups                                  PASSED
+Testing H5Ocopy(): nested groups with loop                             PASSED
+Testing H5Ocopy(): wide nested groups with loop                        PASSED
+Testing H5Ocopy(): group with links                                    PASSED
+Testing H5Ocopy(): object through soft link                            PASSED
+Testing H5Ocopy(): object through external link                        PASSED
+Testing H5Ocopy(): existing object                                     PASSED
+Testing H5Ocopy(): full path                                           PASSED
+Testing H5Ocopy(): named datatype with self-referential attribute      PASSED
+Testing H5Ocopy(): without attributes                                  PASSED
+Testing H5Ocopy(): with missing groups                                 PASSED
+Testing H5Ocopy(): expand soft link                                    PASSED
+Testing H5Ocopy: expand external link                                  PASSED
+Testing H5Ocopy: expand soft and external links                        PASSED
+Testing H5Ocopy(): shallow group copy                                  PASSED
+Testing H5Ocopy(): expand object reference                             PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+
+Testing with shared src messages:
+Testing with shared dst messages:
+Testing with latest format for source file:
+Testing with dense attributes:
+Testing with oldest file format for destination file:
+Testing H5Ocopy(): simple dataset                                      PASSED
+Testing H5Ocopy(): simple dataset within the same file                 PASSED
+Testing H5Ocopy(): empty contiguous dataset                            PASSED
+Testing H5Ocopy(): compound dataset                                    PASSED
+Testing H5Ocopy(): chunked dataset                                     PASSED
+Testing H5Ocopy(): empty chunked dataset                               PASSED
+Testing H5Ocopy(): sparse dataset                                      PASSED
+Testing H5Ocopy(): compressed dataset                                  PASSED
+Testing H5Ocopy(): compact dataset                                     PASSED
+Testing H5Ocopy(): datasets that have multiple ohdr chunks             PASSED
+Testing H5Ocopy(): objects with attributes using named datatypes       PASSED
+Testing H5Ocopy(): empty group                                         PASSED
+Testing H5Ocopy(): root group                                          PASSED
+Testing H5Ocopy(): simple nested groups                                PASSED
+Testing H5Ocopy(): deep nested groups                                  PASSED
+Testing H5Ocopy(): nested groups with loop                             PASSED
+Testing H5Ocopy(): wide nested groups with loop                        PASSED
+Testing H5Ocopy(): group with links                                    PASSED
+Testing H5Ocopy(): object through soft link                            PASSED
+Testing H5Ocopy(): object through external link                        PASSED
+Testing H5Ocopy(): existing object                                     PASSED
+Testing H5Ocopy(): full path                                           PASSED
+Testing H5Ocopy(): named datatype with self-referential attribute      PASSED
+Testing H5Ocopy(): without attributes                                  PASSED
+Testing H5Ocopy(): with missing groups                                 PASSED
+Testing H5Ocopy(): expand soft link                                    PASSED
+Testing H5Ocopy: expand external link                                  PASSED
+Testing H5Ocopy: expand soft and external links                        PASSED
+Testing H5Ocopy(): shallow group copy                                  PASSED
+Testing H5Ocopy(): expand object reference                             PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+
+Testing without shared src messages:
+Testing without shared dst messages:
+Testing with latest format for source file:
+Testing with dense attributes:
+Testing with latest format for destination file:
+Testing H5Ocopy(): simple dataset                                      PASSED
+Testing H5Ocopy(): simple dataset within the same file                 PASSED
+Testing H5Ocopy(): empty contiguous dataset                            PASSED
+Testing H5Ocopy(): compound dataset                                    PASSED
+Testing H5Ocopy(): chunked dataset                                     PASSED
+Testing H5Ocopy(): empty chunked dataset                               PASSED
+Testing H5Ocopy(): sparse dataset                                      PASSED
+Testing H5Ocopy(): compressed dataset                                  PASSED
+Testing H5Ocopy(): compact dataset                                     PASSED
+Testing H5Ocopy(): datasets that have multiple ohdr chunks             PASSED
+Testing H5Ocopy(): objects with attributes using named datatypes       PASSED
+Testing H5Ocopy(): empty group                                         PASSED
+Testing H5Ocopy(): root group                                          PASSED
+Testing H5Ocopy(): simple nested groups                                PASSED
+Testing H5Ocopy(): deep nested groups                                  PASSED
+Testing H5Ocopy(): nested groups with loop                             PASSED
+Testing H5Ocopy(): wide nested groups with loop                        PASSED
+Testing H5Ocopy(): group with links                                    PASSED
+Testing H5Ocopy(): object through soft link                            PASSED
+Testing H5Ocopy(): object through external link                        PASSED
+Testing H5Ocopy(): existing object                                     PASSED
+Testing H5Ocopy(): full path                                           PASSED
+Testing H5Ocopy(): named datatype with self-referential attribute      PASSED
+Testing H5Ocopy(): without attributes                                  PASSED
+Testing H5Ocopy(): with missing groups                                 PASSED
+Testing H5Ocopy(): expand soft link                                    PASSED
+Testing H5Ocopy: expand external link                                  PASSED
+Testing H5Ocopy: expand soft and external links                        PASSED
+Testing H5Ocopy(): shallow group copy                                  PASSED
+Testing H5Ocopy(): expand object reference                             PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+
+Testing with shared src messages:
+Testing without shared dst messages:
+Testing with latest format for source file:
+Testing with dense attributes:
+Testing with latest format for destination file:
+Testing H5Ocopy(): simple dataset                                      PASSED
+Testing H5Ocopy(): simple dataset within the same file                 PASSED
+Testing H5Ocopy(): empty contiguous dataset                            PASSED
+Testing H5Ocopy(): compound dataset                                    PASSED
+Testing H5Ocopy(): chunked dataset                                     PASSED
+Testing H5Ocopy(): empty chunked dataset                               PASSED
+Testing H5Ocopy(): sparse dataset                                      PASSED
+Testing H5Ocopy(): compressed dataset                                  PASSED
+Testing H5Ocopy(): compact dataset                                     PASSED
+Testing H5Ocopy(): datasets that have multiple ohdr chunks             PASSED
+Testing H5Ocopy(): objects with attributes using named datatypes       PASSED
+Testing H5Ocopy(): empty group                                         PASSED
+Testing H5Ocopy(): root group                                          PASSED
+Testing H5Ocopy(): simple nested groups                                PASSED
+Testing H5Ocopy(): deep nested groups                                  PASSED
+Testing H5Ocopy(): nested groups with loop                             PASSED
+Testing H5Ocopy(): wide nested groups with loop                        PASSED
+Testing H5Ocopy(): group with links                                    PASSED
+Testing H5Ocopy(): object through soft link                            PASSED
+Testing H5Ocopy(): object through external link                        PASSED
+Testing H5Ocopy(): existing object                                     PASSED
+Testing H5Ocopy(): full path                                           PASSED
+Testing H5Ocopy(): named datatype with self-referential attribute      PASSED
+Testing H5Ocopy(): without attributes                                  PASSED
+Testing H5Ocopy(): with missing groups                                 PASSED
+Testing H5Ocopy(): expand soft link                                    PASSED
+Testing H5Ocopy: expand external link                                  PASSED
+Testing H5Ocopy: expand soft and external links                        PASSED
+Testing H5Ocopy(): shallow group copy                                  PASSED
+Testing H5Ocopy(): expand object reference                             PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+
+Testing without shared src messages:
+Testing with shared dst messages:
+Testing with latest format for source file:
+Testing with dense attributes:
+Testing with latest format for destination file:
+Testing H5Ocopy(): simple dataset                                      PASSED
+Testing H5Ocopy(): simple dataset within the same file                 PASSED
+Testing H5Ocopy(): empty contiguous dataset                            PASSED
+Testing H5Ocopy(): compound dataset                                    PASSED
+Testing H5Ocopy(): chunked dataset                                     PASSED
+Testing H5Ocopy(): empty chunked dataset                               PASSED
+Testing H5Ocopy(): sparse dataset                                      PASSED
+Testing H5Ocopy(): compressed dataset                                  PASSED
+Testing H5Ocopy(): compact dataset                                     PASSED
+Testing H5Ocopy(): datasets that have multiple ohdr chunks             PASSED
+Testing H5Ocopy(): objects with attributes using named datatypes       PASSED
+Testing H5Ocopy(): empty group                                         PASSED
+Testing H5Ocopy(): root group                                          PASSED
+Testing H5Ocopy(): simple nested groups                                PASSED
+Testing H5Ocopy(): deep nested groups                                  PASSED
+Testing H5Ocopy(): nested groups with loop                             PASSED
+Testing H5Ocopy(): wide nested groups with loop                        PASSED
+Testing H5Ocopy(): group with links                                    PASSED
+Testing H5Ocopy(): object through soft link                            PASSED
+Testing H5Ocopy(): object through external link                        PASSED
+Testing H5Ocopy(): existing object                                     PASSED
+Testing H5Ocopy(): full path                                           PASSED
+Testing H5Ocopy(): named datatype with self-referential attribute      PASSED
+Testing H5Ocopy(): without attributes                                  PASSED
+Testing H5Ocopy(): with missing groups                                 PASSED
+Testing H5Ocopy(): expand soft link                                    PASSED
+Testing H5Ocopy: expand external link                                  PASSED
+Testing H5Ocopy: expand soft and external links                        PASSED
+Testing H5Ocopy(): shallow group copy                                  PASSED
+Testing H5Ocopy(): expand object reference                             PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+
+Testing with shared src messages:
+Testing with shared dst messages:
+Testing with latest format for source file:
+Testing with dense attributes:
+Testing with latest format for destination file:
+Testing H5Ocopy(): simple dataset                                      PASSED
+Testing H5Ocopy(): simple dataset within the same file                 PASSED
+Testing H5Ocopy(): empty contiguous dataset                            PASSED
+Testing H5Ocopy(): compound dataset                                    PASSED
+Testing H5Ocopy(): chunked dataset                                     PASSED
+Testing H5Ocopy(): empty chunked dataset                               PASSED
+Testing H5Ocopy(): sparse dataset                                      PASSED
+Testing H5Ocopy(): compressed dataset                                  PASSED
+Testing H5Ocopy(): compact dataset                                     PASSED
+Testing H5Ocopy(): datasets that have multiple ohdr chunks             PASSED
+Testing H5Ocopy(): objects with attributes using named datatypes       PASSED
+Testing H5Ocopy(): empty group                                         PASSED
+Testing H5Ocopy(): root group                                          PASSED
+Testing H5Ocopy(): simple nested groups                                PASSED
+Testing H5Ocopy(): deep nested groups                                  PASSED
+Testing H5Ocopy(): nested groups with loop                             PASSED
+Testing H5Ocopy(): wide nested groups with loop                        PASSED
+Testing H5Ocopy(): group with links                                    PASSED
+Testing H5Ocopy(): object through soft link                            PASSED
+Testing H5Ocopy(): object through external link                        PASSED
+Testing H5Ocopy(): existing object                                     PASSED
+Testing H5Ocopy(): full path                                           PASSED
+Testing H5Ocopy(): named datatype with self-referential attribute      PASSED
+Testing H5Ocopy(): without attributes                                  PASSED
+Testing H5Ocopy(): with missing groups                                 PASSED
+Testing H5Ocopy(): expand soft link                                    PASSED
+Testing H5Ocopy: expand external link                                  PASSED
+Testing H5Ocopy: expand soft and external links                        PASSED
+Testing H5Ocopy(): shallow group copy                                  PASSED
+Testing H5Ocopy(): expand object reference                             PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+Testing H5Ocopy(): preserve NULL messages                              PASSED
+All object copying tests passed.
+27.15user 11.46system 0:38.67elapsed 99%CPU (0avgtext+0avgdata 148688maxresident)k
+0inputs+290488outputs (0major+98145minor)pagefaults 0swaps
+
+Finished testing objcopy 
+============================

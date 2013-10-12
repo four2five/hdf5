@@ -1,0 +1,15 @@
+============================
+ overhead  Test Log
+============================
+Style   Bytes/Chunk
+-----   -----------
+forward   41.320
+reverse   43.416
+inward    70.664
+outward   41.320
+random    53.896
+0.04user 0.04system 0:00.08elapsed 98%CPU (0avgtext+0avgdata 16992maxresident)k
+0inputs+560outputs (0major+1235minor)pagefaults 0swaps
+
+Finished testing overhead 
+============================

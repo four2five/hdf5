@@ -1,0 +1,12 @@
+============================
+testlibinfo.sh  Test Log
+============================
+Check file shlib                                                       -SKIP-
+Check file ../src/.libs/libhdf5.a                                      PASSED
+Check file testhdf5                                                    PASSED
+No error encountered
+0.32user 0.03system 0:00.33elapsed 104%CPU (0avgtext+0avgdata 24832maxresident)k
+0inputs+0outputs (0major+7163minor)pagefaults 0swaps
+
+Finished testing testlibinfo.sh 
+============================

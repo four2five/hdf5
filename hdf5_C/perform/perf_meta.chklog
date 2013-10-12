@@ -1,0 +1,23 @@
+============================
+ perf_meta  Test Log
+============================
+		Performance result of metadata for datasets and attributes
+
+1.  Create 8 attributes for each of 16 existing datasets
+	H5Dopen2:		avg=0.000030s;	max=0.000042s;	min=0.000022s
+	H5Dclose:		avg=0.000015s;	max=0.000020s;	min=0.000010s
+	H5A(create & close):	avg=0.000020s;	max=0.000052s;	min=0.000011s
+2.  Create 8 attributes for each of 16 new datasets
+	H5Dcreate2:		avg=0.000037s;	max=0.000057s;	min=0.000028s
+	H5Dclose:		avg=0.000005s;	max=0.000008s;	min=0.000004s
+	H5A(create & close):	avg=0.000016s;	max=0.000084s;	min=0.000010s
+3.  Create 2 attributes for each of 16 existing datasets for 4 times
+	H5Dopen2:		avg=0.000022s;	max=0.000027s;	min=0.000020s
+	H5Dclose:		avg=0.000010s;	max=0.000014s;	min=0.000009s
+	H5A(create & close):	avg=0.000018s;	max=0.000034s;	min=0.000012s
+All metadata performance tests passed.
+0.00user 0.02system 0:00.02elapsed 90%CPU (0avgtext+0avgdata 18144maxresident)k
+0inputs+904outputs (0major+1342minor)pagefaults 0swaps
+
+Finished testing perf_meta 
+============================

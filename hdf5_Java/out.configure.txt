@@ -1,0 +1,79 @@
+checking if tr works... yes
+checking for gawk... no
+checking for mawk... mawk
+checking if expr works... yes
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ANSI C... none needed
+checking whether make sets $(MAKE)... no
+checking for a BSD-compatible install... /usr/bin/install -c
+checking how to run the C preprocessor... gcc -E
+checking for egrep... grep -E
+checking for ANSI C header files... yes
+checking for ceil in -lm... yes
+checking for rm... /bin/rm
+checking for find... /usr/bin/find
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking target system type... x86_64-pc-linux-gnu
+FYI the target here is: x86_64-pc-linux-gnu
+checking gzip compression... yes
+zlib found: /home/buck/install/zlib/lib/libz.a
+checking jpeg compression... no
+checking szip compression... yes
+szlib found: /home/buck/install/szip/lib/libsz.a
+checking HDF4 library... suppressed
+checking HDF5 library... yes
+HDF5 found: /home/buck/install/hdf5/lib
+checking dependencies for HDF5 library... OK
+checking HDF4to5 library... no
+checking jni.h usability... yes
+checking jni.h presence... yes
+checking for jni.h... yes
+checking for java... /usr/lib/jvm/java-7-oracle/bin/java
+checking for javac... /usr/lib/jvm/java-7-oracle/bin/javac
+checking for javadoc... /usr/lib/jvm/java-7-oracle/bin/javadoc
+checking for jar... /usr/lib/jvm/java-7-oracle/bin/jar
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating native/Makefile
+config.status: creating native/hdflib/Makefile
+config.status: creating native/hdf5lib/Makefile
+config.status: creating ncsa/Makefile
+config.status: creating ncsa/hdf/Makefile
+config.status: creating ncsa/hdf/hdflib/Makefile
+config.status: creating ncsa/hdf/hdf5lib/Makefile
+config.status: creating ncsa/hdf/hdf5lib/exceptions/Makefile
+config.status: creating ncsa/hdf/hdf5lib/callbacks/Makefile
+config.status: creating ncsa/hdf/hdf5lib/structs/Makefile
+config.status: creating ncsa/hdf/object/Makefile
+config.status: creating ncsa/hdf/object/fits/Makefile
+config.status: creating ncsa/hdf/object/h4/Makefile
+config.status: creating ncsa/hdf/object/h5/Makefile
+config.status: creating ncsa/hdf/object/nc2/Makefile
+config.status: creating ncsa/hdf/view/Makefile
+config.status: creating bin/hdfview.sh
+config.status: creating test/Makefile
+config.status: creating test/object/misc/Makefile
+config.status: creating test/object/misc/testh4file.sh
+config.status: creating test/object/misc/testh5file.sh
+config.status: creating test/object/misc/runtests.sh
+config.status: creating test/object/misc/TestH5Object.sh
+config.status: creating test/object/misc/TestH5Table.sh
+config.status: creating test/object/misc/TestH5MemoryLeak.sh
+config.status: creating test/object/Makefile
+config.status: creating test/object/unittests.sh
+config.status: creating test/hdf5lib/junit.sh
+config.status: creating test/hdf5lib/Makefile
+config.status: creating examples/Makefile
+config.status: creating examples/intro/Makefile
+config.status: creating examples/datasets/Makefile
+config.status: creating examples/datatypes/Makefile
+config.status: creating examples/groups/Makefile
+config.status: creating examples/runExample.sh

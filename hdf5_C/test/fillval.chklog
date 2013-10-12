@@ -1,0 +1,34 @@
+============================
+ fillval  Test Log
+============================
+Testing property lists                                                 PASSED
+Testing property lists, with variable-length datatype                  PASSED
+Testing with old file format:
+Testing chunked dataset creation                                       PASSED
+Testing chunked dataset I/O                                            PASSED
+Testing chunked dataset extend                                         PASSED
+Testing contiguous dataset creation                                    PASSED
+Testing contiguous dataset I/O                                         PASSED
+Testing contiguous dataset extend                                      -SKIP-
+    Not implemented yet -- needs H5S_SELECT_DIFF operator
+Testing contiguous dataset compatibility with v. 1.4                   PASSED
+Testing compact dataset creation                                       PASSED
+Testing compact dataset I/O                                            PASSED
+
+Testing with new file format:
+Testing chunked dataset creation                                       PASSED
+Testing chunked dataset I/O                                            PASSED
+Testing chunked dataset extend                                         PASSED
+Testing contiguous dataset creation                                    PASSED
+Testing contiguous dataset I/O                                         PASSED
+Testing contiguous dataset extend                                      -SKIP-
+    Not implemented yet -- needs H5S_SELECT_DIFF operator
+Testing contiguous dataset compatibility with v. 1.4                   PASSED
+Testing compact dataset creation                                       PASSED
+Testing compact dataset I/O                                            PASSED
+All fill value tests passed.
+5.52user 0.24system 0:06.14elapsed 93%CPU (0avgtext+0avgdata 70704maxresident)k
+0inputs+309848outputs (0major+4927minor)pagefaults 0swaps
+
+Finished testing fillval 
+============================
